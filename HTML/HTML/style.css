@@ -1,0 +1,105 @@
+body{background-color: #10103f;}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Poppins;
+}
+
+header{
+	background-image: url();
+}
+main{}
+
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.startpage { margin:-10px; 
+width:300px; }
+.center{
+     position: absolute;
+    top: 32%;
+    left: 31%;
+    padding: 230px;
+    transform: translate(-50%, -50%);}
+  .img{float: left; width: }
+  .nav{ margin:-10px; }
+  .leftcolumn{
+    margin-top: 100px;
+    float: left;
+        margin-left: 32px;
+  }
+  input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+ 
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.grid-container {
+  display: grid;
+  height: 400px;
+  align-content: center;
+  grid-template-columns: auto auto ;
+  gap: 10px;
+  padding: 10px;
+      float: right;
+    width: 47%;
+       margin-top: 30px;
+}
+}
+
+.grid-container > div{
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+h2{ text-align:center;
+
+padding-top: 100px;
+color: white;}
+form{padding-top: 250px;
+padding-left: 200px;
+}
+p{
+  color: white;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+label{color: white;
+}
+.hello{margin-top: 16px;}
